@@ -1,0 +1,30 @@
+
+
+.model small
+.stack 100h
+
+
+
+
+.data
+.code
+
+main proc
+
+mov ah, 6
+mov cx, 1000h
+mov al, 20h
+mov bl, 17h
+int 10h
+
+
+mov ah, 4ch
+int 21h
+
+main endp
+end main
+
+
+
+
+; [SOURCE]: C:\Users\PCUSER\Desktop\COA game GG - Copy\test programs\main.asm
